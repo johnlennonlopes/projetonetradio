@@ -24,7 +24,7 @@ jsPDF-AutoTable (Plugin para jsPDF).
 
 <h3>Telas da aplicação </h3>
 
-<h4>Landin Page:</h4>
+<h3>Landin Page:</h3>
 
 ![Landin Page](https://github.com/user-attachments/assets/0a6ae5c6-fa7b-4662-939e-c0f3e7aacba7)
 
@@ -38,19 +38,19 @@ jsPDF-AutoTable (Plugin para jsPDF).
 
 <h3>Tela admin:</h3>
 
-<h2>Dashboard;</h2>
+<h4>Dashboard;</h4>
 
 ![Admin Dashboard](https://github.com/user-attachments/assets/5521ddce-6253-4aea-b461-4162f2ca4483)
 
-<h2>Usuários;</h2>
+<h4>Usuários;</h4>
 
 ![usuarios](https://github.com/user-attachments/assets/5cda77a7-b5c7-4c70-b4e9-a73c895a31f8)
 
-<h2>Mensagem do Dia;</h2>
+<h4>Mensagem do Dia;</h4>
 
 ![mensagenm do dia](https://github.com/user-attachments/assets/1884f460-8234-4903-ad7e-b3ae7062db05)
 
-<h2>Relatórios;</h2>
+<h4>Relatórios;</h4>
 
 ![relatórios](https://github.com/user-attachments/assets/47593cf0-ae23-415b-86b2-1ffd4417f9a9)
 
