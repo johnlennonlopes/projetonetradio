@@ -4,21 +4,22 @@
 <h3>Autor:</h3> 
 John Lennon dos Santos Lopes
 
-- O frontend da aplicação foi desenvolvido com HTML, MaterializeCSS e JavaScript e o backend implementado a um projeto FREE da Supabase.
+<h3>Estrutura:</h3>
+O frontend da aplicação foi desenvolvido com HTML, MaterializeCSS e JavaScript e o backend implementado a um projeto FREE da Supabase.
 
 
-- Site em Produção - (domínio próprio)
+<h3>Site em Produção - (domínio próprio)</h3> 
 https://projetonetradio.networkgpuava.com
 
 
-- Dependências JavaScript
+<h3>Dependências JavaScript Utilizadas:</h3> 
 Materialize CSS (JavaScript);
 Supabase Client;
 jsPDF;
 jsPDF-AutoTable (Plugin para jsPDF).
 
 
-<h3> Telas da aplicação </h3>
+<h3>Telas da aplicação </h3>
 
 Landin Page:
 
