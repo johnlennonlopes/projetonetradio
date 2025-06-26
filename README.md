@@ -1,6 +1,4 @@
-                                   <h1>      Projeto NetRádio      </h1> 
-
-<h2> Projeto para a máteria de Desenvolvimento de Páginas Web com Framework e CSS da UTFPR. </h2>
+<h2> Projeto NetRádio para a máteria de Desenvolvimento de Páginas Web com Framework e CSS da UTFPR. </h2>
 
 
 - Autor: John Lennon dos Santos Lopes
