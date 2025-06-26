@@ -8,7 +8,7 @@
 - O frontend da aplicação foi desenvolvido com HTML, MaterializeCSS e JavaScript e o backend implementado a um projeto FREE da Supabase.
 
 
-- Site em Produção - GitHub Pages
+- Site em Produção - (domínio próprio)
 https://projetonetradio.networkgpuava.com
 
 
