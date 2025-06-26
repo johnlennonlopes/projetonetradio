@@ -22,7 +22,7 @@ jsPDF;
 jsPDF-AutoTable (Plugin para jsPDF).
 
 
-<h3>Telas da aplicação </h3>
+<h3>Telas da aplicação:</h3>
 
 <h3>Landin Page:</h3>
 
