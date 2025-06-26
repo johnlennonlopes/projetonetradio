@@ -24,7 +24,7 @@ jsPDF-AutoTable (Plugin para jsPDF).
 
 <h3>Telas da aplicação </h3>
 
-<h3>Landin Page:</h3>
+<h4>Landin Page:</h4>
 
 ![Landin Page](https://github.com/user-attachments/assets/0a6ae5c6-fa7b-4662-939e-c0f3e7aacba7)
 
