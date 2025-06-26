@@ -1,7 +1,8 @@
 <h2> Projeto NetRádio para a máteria de Desenvolvimento de Páginas Web com Framework e CSS da UTFPR. </h2>
 
 
-- Autor: John Lennon dos Santos Lopes
+<h3>Autor:</h3> 
+John Lennon dos Santos Lopes
 
 - Este projeto tem como objetivo uma rádio indoor personalizada para estabelecimentos.
 
