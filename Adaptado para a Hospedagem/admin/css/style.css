@@ -1,0 +1,167 @@
+/*
+    Arquivo de Estilos da Página de Admin
+    Projeto: NetRádio
+*/
+
+/* --- Estilo Geral --- */
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #f4f4f8;
+}
+main {
+    flex: 1 0 auto;
+}
+.container {
+    width: 95%;
+    max-width: 1400px;
+}
+h1.header {
+    font-weight: bold;
+    margin: 2rem 0;
+}
+
+/* --- Cabeçalho (Navbar) --- */
+nav {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+nav .brand-logo {
+    color: #424242;
+    display: flex;
+    align-items: center;
+}
+nav .brand-logo img {
+    height: 70px;
+    margin-right: 12px;
+}
+.nav-wrapper {
+     padding: 0 16px;
+}
+.chip.admin-tag {
+    background-color: #0589ca;
+    color: #fff;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* --- Abas de Navegação --- */
+.tabs {
+    background-color: transparent;
+}
+.tabs .tab a {
+    color: #0589ca;
+    font-weight: 600;
+}
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: #e3f2fd;
+    color: #0470a2;
+}
+.tabs .indicator {
+    background-color: #0589ca;
+}
+
+/* --- Seções e Cards --- */
+.section-card {
+    padding: 16px;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+.dashboard-card {
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+    color: #424242;
+    margin-bottom: 1rem;
+}
+.dashboard-card .card-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.dashboard-card .card-title-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.dashboard-card .card-stat {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.shortcut-card {
+    color: white;
+    border-radius: 12px;
+    padding: 24px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.shortcut-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+.shortcut-card i.fa {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+.shortcut-card h3 {
+     font-size: 1.5rem;
+     font-weight: bold;
+     margin-bottom: 0.5rem;
+}
+
+/* --- Tabela --- */
+.status-chip {
+    font-weight: 600;
+    border-radius: 16px;
+    padding: 4px 12px;
+    font-size: 0.8rem;
+}
+
+/* --- Modais --- */
+.modal {
+    max-width: 600px;
+    border-radius: 12px;
+}
+.modal-footer {
+    border-radius: 0 0 12px 12px;
+}
+#confirmationModal {
+    max-width: 450px;
+}
+
+/* --- Rodapé --- */
+.page-footer {
+    background-color: #212121;
+    padding: 10px 0;
+}
+.page-footer .footer-copyright {
+     background-color: transparent !important;
+}
+
+/* --- Responsividade --- */
+@media (min-width: 601px) {
+    .nav-wrapper {
+        padding: 0 24px;
+    }
+    .section-card {
+        padding: 32px;
+    }
+}
+@media (max-width: 600px) {
+    .tabs .tab a {
+        font-size: 12px;
+    }
+    .dashboard-card .card-title-text {
+        font-size: 1rem;
+    }
+     .dashboard-card .card-stat {
+        font-size: 2rem;
+    }
+    .btn-floating {
+        margin: 2px;
+    }
+}
