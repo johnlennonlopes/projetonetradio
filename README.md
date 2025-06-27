@@ -7,6 +7,9 @@ John Lennon dos Santos Lopes
 <h3>Professor:</h3> 
 Prof. Dr. Roni Fabio Banaszewski --> ronifabio no GitHub
 
+<h3>Design System</h3>
+Arquivo Design System aqui no projeto.
+
 <h3>Estrutura:</h3>
 O frontend da aplicação foi desenvolvido com HTML, MaterializeCSS e JavaScript e o backend implementado a um projeto FREE da Supabase.
 
