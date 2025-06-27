@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetRádio - Cliente</title>
+
+    <!-- Aqui que Importo os Frameworks e as Bibliotecas Externas -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Link para o CSS -->
+    <link rel="stylesheet" href="/client/css/style.css">
+
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="page-header">
+        <div class="flex-container">
+            <a href="#" class="brand-logo">
+                <img src="/imagens/netradiologo.png" alt="Logo NetRádio">
+            </a>
+        </div>
+        <button id="logoutButton" class="btn waves-effect waves-light logout-btn">Sair<i class="material-icons right">exit_to_app</i></button>
+    </header>
+    <main class="player-content-wrapper">
+        <!-- Mensagem do dia -->
+        <div id="dailyMessageBox" class="daily-message-box hidden"><p id="dailyMessageText" class="flow-text"></p></div>
+        <h2 class="flow-text grey-text text-darken-3" id="welcomeMessageTitle">Sua Rádio Personalizada</h2>
+        <!-- Mensagem do Cliente -->
+        <p class="grey-text text-darken-1" id="clientWelcomeMessage">Seja bem-vindo(a)!</p>
+        <!-- Webview -->
+        <div id="playerContainer" class="player-container">
+            <iframe id="radioPlayer" src="https://radioindoor.com.br/radio/demonstracao" allow="autoplay; fullscreen" allowfullscreen referrerpolicy="no-referrer"></iframe>
+        </div>
+        <div class="player-controls">
+            <div class="company-name" id="clientCompanyName">Carregando...</div>
+            <div class="buttons">
+                <!-- Tela Cheia pro Player -->
+                <button id="fullscreenButton" class="btn waves-effect waves-light fullscreen-btn"><i class="fas fa-expand left"></i>Tela Cheia</button>
+                <!-- Suporte Manda pro Whatsapp -->
+                <a href="https://wa.me/554233043149" target="_blank" class="btn waves-effect waves-light whatsapp-btn"><i class="fab fa-whatsapp left"></i>Suporte</a>
+            </div>
+        </div>
+    </main>
+    <!-- Rodapé -->
+    <footer class="page-footer">
+        <div class="footer-copyright"><div class="container white-text text-lighten-1">Feito com <i class="material-icons tiny red-text">favorite</i> por John Lopes</div></div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Link pro js -->
+    <script type="module" src="/client/js/client.js"></script>
+</body>
+</html>

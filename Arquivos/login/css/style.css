@@ -1,0 +1,77 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* --- Card de Login --- */
+.login-card {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- Logo --- */
+.login-card .logo-image {
+    max-width: 180px; 
+    width: 65%; 
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+
+/* --- Botão Principal --- */
+.btn.radio-blue {
+    background-color: #0589ca !important;
+    width: 100%;
+    height: auto;
+    line-height: normal;
+    padding: 12px 0;
+    font-size: 1.1rem;
+    border-radius: 8px;
+}
+
+.btn.radio-blue:hover {
+    background-color: #0470a2 !important;
+}
+
+/* --- Campos de Formulário Inputs --- */
+.input-field input[type=email]:focus + label,
+.input-field input[type=password]:focus + label {
+    color: #0589ca !important;
+}
+
+.input-field input[type=email]:focus,
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid #0589ca !important;
+    box-shadow: 0 1px 0 0 #0589ca !important;
+}
+
+/* --- Caixa de Mensagens --- */
+.message-box {
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.message-box.error { background-color: #ffebee; color: #c62828; }
+.message-box.success { background-color: #e8f5e9; color: #2e7d32; }
+.message-box.info { background-color: #e3f2fd; color: #1565c0; }
+
+/* --- Utilitários --- */
+.text-link { color: #0589ca; }
+.text-link:hover { color: #0470a2; text-decoration: underline; }
+.hidden { display: none !important; }
