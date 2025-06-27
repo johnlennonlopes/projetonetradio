@@ -5,7 +5,7 @@
 John Lennon dos Santos Lopes
 
 <h3>Professor:</h3> 
-Prof. Dr. Roni Fabio Banaszewski --> ronifabio no GitHub
+Prof. Dr. Roni Fabio Banaszewski --> ronifabio no GitHub.
 
 <h3>Design System</h3>
 Arquivo Design System aqui no projeto.
