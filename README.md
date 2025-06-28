@@ -24,6 +24,8 @@ Supabase Client;
 jsPDF;
 jsPDF-AutoTable (Plugin para jsPDF).
 
+<h3>Apresentação do projeto no YouTube:</h3>
+https://youtu.be/Cw8xvWSwiY8
 
 <h3>Telas da aplicação:</h3>
 
